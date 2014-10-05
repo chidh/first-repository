@@ -1,0 +1,329 @@
+  /************ Container ********************/    
+@font-face {
+    font-family: Multicolore;
+    src: url('../fonts/Multicolore.otf');
+}
+ul, li {
+  list-style: none;
+}  
+.container {
+    width:960px;
+    margin:0px auto;
+}
+#container .col-md-4 p {
+    text-align:left; 
+}
+
+.center-container{
+    width:930px;
+}
+.nav.navbar-nav, h3, .btn {
+  font-family: Multicolore;
+}
+.navbar-brand {
+  height: auto;
+  padding: 0;
+
+}
+.navbar-brand img {
+}
+
+
+.nav.navbar-nav li:first-child a { color:#82b41d;}
+.nav.navbar-nav li:nth-child(2) a { color:#9900ff;}
+.nav.navbar-nav li:nth-child(3) a { color:#c80702;}
+.nav.navbar-nav li:nth-child(4) a { color:#1ca6d5;}
+.nav.navbar-nav li:nth-child(5) a { color:#fa6f68;}
+.nav.navbar-nav li:nth-child(6) a { color:#ff22a7;}  
+.nav.navbar-nav {
+            font-weight:bold;
+            float:right;
+            text-align:right;
+}
+.nav.navbar-nav li a {
+  font-size: 15px;
+}
+.nav.navbar-nav li:last-child a {
+  padding-right: 50px;
+}
+.nav.navbar-nav ul p{
+   color:#9ba9ae;
+}
+.navbar.navbar-default{
+      background-color:#fff;
+      border:none;
+}
+.navbar-collapse.in ul.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-toggle {
+  margin-top: 45px;
+}
+  
+.top-icons {
+  margin: 23px 50px 0px;
+  float: right;
+}
+.top-icons span.text {
+  color: #94a3a8;
+  display: block;
+  float: left;
+  padding: 7px 15px 0 0;
+}
+
+
+.top-icons span.icon {
+  height: 29px;
+  width: 29px;
+  display: inline-block;
+}
+.top-icons span.icon.fb {
+  background: url(../image/fbicon.png) no-repeat;
+}
+.top-icons span.icon.second {
+  background: url(../image/secondicon.png) no-repeat;
+}
+.top-icons span.icon.twitter {
+  background: url(../image/tweet.png) no-repeat;
+}
+.top-icons span.icon.instagram {
+  background: url(../image/4thicon.png) no-repeat;
+}
+.top-icons span.icon.googleplus {
+  background: url(../image/googleplus.png) no-repeat;
+}
+/************ End of Navbar styles ********************/
+/************ Button styles ********************/
+/*our center button #846ba1  welcome #ec3673   home #82b41d about #9900ff  franchise #1ca6d5 */
+    
+.row {
+  color: #575757;
+}
+.kids {
+  background: url('../image/circularimages.png') no-repeat;
+  width: 298px;
+  height: 229px;
+}
+h3 {
+  font-size: 32px;
+  padding:0;
+  
+
+}
+h3, .kids, .form-horizontal img {
+  margin: 25px 0 0 0;
+}
+.btn {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.btn.btn-first{
+  color:#FFFFFF;
+  background-color: #846ba1;
+  font-weight:bold;
+}
+.btn.btn-second{
+  color:#FFFFFF;
+  background-color:#5addf6;
+  font-weight: bold;
+}
+.btn.btn-third{
+  color:#FFFFFF;
+  background-color:#98be19;
+  font-weight:bold;
+}
+.btn.btn-danger{
+  font-weight:bold;
+}
+/************End of  Button styles ********9ba9ae************/
+/************ Form-group styles ********************/
+.form-group{
+  width:100%;
+}
+.form-group .col-md-9{
+  width:100%;
+}
+.form-group{
+  margin-bottom:15px;
+  margin-top:20px;
+}
+.col-md-9 .form-control {
+  -webkit-box-shadow: inset 1px 1px 2px 0px #dddddd;
+  -moz-box-shadow: inset 1px 1px 2px 0px #dddddd;
+  box-shadow: inset 1px 1px 2px 0px #dddddd;
+}
+
+.col-md-9 .btn.btn-default{
+ -webkit-box-shadow: inset 1px 1px 2px 0px #dddddd;
+  -moz-box-shadow: inset 1px 1px 2px 0px #dddddd;
+  box-shadow: inset 1px 1px 2px 0px #dddddd; 
+  color:#9ba9ae;
+  font-weight: bold;
+}
+/**************** End 0f Form-group styles*********************/ 
+.col-md-4 h3.ourevents{
+    color:#98be19;
+}
+.col-md-4 h3{
+  color:#f16c98;
+}
+.col-md-6{
+  width:25%;
+}
+/*ourevents  heading=#98be19 button color #98be19
+   actu=ivities headfing=#5addf6 btn color #5addf6
+  ourcenter  heading=#b386e6 button      #846ba1 */
+
+.col-md-4 h3.ourcenter{
+  color:#b386e6;
+}
+.col-md-4 h3.activities{
+  color:#5addf6;
+}
+.big-circle {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;  
+    box-shadow: 5px 0 5px -5px #333;
+    padding: 5px 0 0 5px;
+    position: absolute;
+    left: -18px;
+    top: 30px;
+
+}
+
+.circle {
+  background-color: #00a2c6;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+
+}
+#footer ul {
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.circle .glyphicon {
+  color: #fff;
+  font-size: 17px;
+  margin: 3px 0 0 5px;
+}
+.circle-small {
+  background-color: #8cd2e8;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.circle-small .glyphicon {
+  color: #fff;
+  font-size: 13px;
+  margin: 0px 0 0 4px;
+}
+
+.top-center-box-shadow {
+  background: radial-gradient(at 50% 0, rgba(0,0,0,.2), transparent 60%);
+  background-size: 100% 15px;
+  background-repeat: no-repeat;
+}
+.left-center-box-shadow {
+  background: radial-gradient(at 0 50%, rgba(0,0,0,.2), transparent 60%);
+  background-size: 15px 100%;
+  background-repeat: no-repeat;
+}
+.shadow {
+  box-shadow: inset 20px 0px 20px -20px #d4d4d4;
+}
+
+#footer {
+   z-index: 10; 
+   /*box-shadow: inset 0 20px 20px -20px #f7f7f7;*/
+   margin-top: 20px;
+}
+#footer .row {
+  margin-top: 0;
+}
+#footer .row > div {
+  z-index: 20;
+  /*box-shadow: inset 20px 0px 20px -20px #d4d4d4;*/
+  min-height: 130px;
+}
+#footer .row > div:last-child {
+  box-shadow: none;
+  padding-top: 36px;
+  text-align: right;  
+}
+#footer h4 {
+  color: #8cd2e8;
+  font-size: 20px;
+  margin: 36px 0 0 12px;
+  font-family: tahoma;
+}
+#footer ul li {
+  padding-bottom: 20px;
+}
+#footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+
+}
+#footer p.title{
+  font-weight: bold;
+}
+#footer p.copyrights {
+  color: #00a2c6;
+}
+.carousel-inner .item, .newitem {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+.carousel-inner .item img {
+  width: 100%;
+  min-height: 200px;
+}
+/*.carousel-inner .item.item1, .newitem.item1 {
+  background: url(../image/big1.jpg) no-repeat center center scroll; 
+}
+.carousel-inner .item.item1, .newitem.item2 {
+  background: url(../image/big2.jpg) no-repeat center center scroll; 
+}*/
+
+
+.carousel-circle {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    left: 50%;
+}
+.carousel-circle .glyphicon {
+  margin-left: 3px;
+  margin-top: 7px;
+}
+@media (max-width: 960px) {
+  .container {
+    width :100%;
+  }
+}
+@media (max-width: 768px) {
+  #footer .row > div {
+    min-height: 0;
+  }
+  .shadow {
+      box-shadow: none; 
+  }
+  #footer .row > div:last-child {
+    text-align: left;
+  }
+}
