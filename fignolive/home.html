@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="../fignolive/css/main.css"/>
 </head>
 <body>
-<div class="main-container">
-<div class="dummy">Dummy123</div>
+
 	<nav id="mynavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">	
@@ -19,59 +18,184 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<div class="navbar-brand">
+			<ul class="nav navbar-nav navbar-left">
+               <li>
 				<a href="#"> 
-				<img src="images/helpicon.png">SUPPORT</a>
-				<a href="#">
-				<img src="images/phoneicon.png">888-000-000</a>
-			</div>
+				<img src="images/help_icon.png">SUPPORT</a>
+				</li>
+				<li><a href="#">
+				<img src="images/phone_icon.png">888-000-000</a>
+				</li>
+			</ul>
 		</div>
 		<div class="navbar-collapse collapse">
-			<div class="navbar-icons">
+			<ul class="nav navbar-nav navbar-right">
+		<!--	<div class="navbar-icons">
 				<span class="icon fb">facebook</span>
 				<span class="icon tweeter">Tweeter</span>
-				<span class="icon googleplus"></span>
-			</div>
+				<span class="icon googleplus">googleplus</span>
+			</div>  -->
+			<li>
+				<a href="#">
+				<img src="images/fb.png"> Facebook</a>
+			</li>
+			<li>
+				<a href="#">
+				<img src="images/tweetericon.png"> Tweeter</a>
+			</li>
+			<li>
+				<a href="#">
+				<img src="images/googleplus.png"> Google+</a>
+			</li>
+			</ul>		
 		<div>
 	</nav>
-	<div class="container">
-		<div class="row"> 
-			<div class="center-image">
-				<img src="images/bigimg.jpg">
-	        </div>
-	    </div>
-        <div class="row">
-        	<div class="left"> 
-        <!--		<div class="fignolivefashions">  -->
-        			<p><h3 class="FigandoliveFashions">Fig & Olive Fashions</h3>is a one stop solution for your requirements for readymade textile garments & leather goods.We provide our customers with goods according to the specifications required by them.our aim is to provide our customers with quality products specified time no compromise on either
-        			</p>
-        	<!--</div> -->
-        		<div class="circle1">
-					
+	<div id="outer_container">
+		<div class="container">
+			<div class="row">
+				<div class="col-left">
+					<a href="#" class="logo">
+						<img src="images/fno.png"/>
+					</a>
+					<h3>FIG & OLIVE </h3>
+					<h4> FASHIONS </h4>
+					<ul class="nav navbar">
+						<li>Home</li>
+						<li>About Us</li>
+						<li>Products & Services</li>
+						<li>Work Ethics</li>
+						<li>Contact Us</li>
+					</ul>
+			    	<div class="decoration-small">
+			    	</div>
 				</div>
-				<div class="circletwo">
-        		</div>
-        	</div>
-			
-			<div class="right">
-				<div class="OurProducts">
-					<h3>Our Products</h3>
-					<div class="rectimage1">
-					</div>
-					<div class="rectimage2">
-					</div>
-					<div class="rectimage3">
-					</div>
-					<div class="rectimage4">
+				<div class="col-right">
+				    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+				      <!-- Wrapper for slides -->
+				      <div class="carousel-inner">
+				        <div class="item item1 active">
+				          <img src="images/bigimg.jpg">
+				        </div>
+				      </div>
+				      <!-- Controls -->
+				      <a class="left carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev">
+				        <span class="glyphicon glyphicon-chevron-left"></span>
+				      </a>
+				      <a class="right carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="next">
+				      	<span class="glyphicon glyphicon-chevron-right"></span>
+				      </a>
+				    </div>
+		    	</div>
+		    </div>
+	        <div class="row center-content">
+	        	<div class="col-left">
+	        	&nbsp;
+	        	</div>
+	        	<div class="col-right">
+		        	<div class="left"> 
+		        		<div class="decoration-big">
+		        		</div>
+		    			<p><span class="big">Fig & Olive Fashions </span>is a one stop solution for your requirements for readymade textile garments & leather goods.We provide our customers with goods according to the specifications required by them.our aim is to provide our customers with quality products specified time no compromise on either
+		    			</p>
+		    			<div class="decoration-medium"></div>
+		    			<div class="clearfix">
+			        		<div class="circle1 top-center-box-shadow">
+			        			<img src="images/circleone.png"/>
+							</div>
+							<div class="circletwo top-center-box-shadow">
+								<img src="images/circle2.png"/>
+			        		</div>
+			        	</div>	
+		        	</div>
+					<div class="right">
+						<div class="OurProducts">
+							<div class="producttitle clearfix">
+								<span class="leftbg big">Our Products</span>
+
+								<span class="rightbg"></span>
+								
+							</div>
+							<div class="products top-center-box-shadow">
+								<img src="images/rectimg1.png"/>
+							</div>
+							<div class="products top-center-box-shadow">
+								<img src="images/rectimg2.png"/>
+							</div>
+							<div class="products top-center-box-shadow">
+								<img src="images/rectimg3.png"/>
+							</div>
+							<div class="products top-center-box-shadow">
+								<img src="images/rectimg4.png"/>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div> <!-- end of container -->
+	</div> <!-- end of outer container -->		
+
+
+	<div class="container footer">
+		<div class="row">
+			<div class="col-md-2">
+				<h5> Links </h5>
+				<ul class="nav navbar">
+					<li>Contact Us</li>
+					<li>Products & services</li>
+					<li>About Us</li>
+					<li>Terms & conditions</li>
+					<li>your Privacy</li>
+				</ul>
+			</div> 
+			<div class="col-md-4">
+				<h5>Newsletter</h5>
+				<p>Don't miss out on our latest offers</p>
+				<form role="form">
+					<div class="input-group">
+  						<input class="form-control" type="email" placeholder="Enter email">
+  						<!--span class="glyphicon glyphicon-envelope"></span-->
+  						<div class="input-group-addon">OK</div>
+					</div>	
+				</form>
+				<h5>Our Location</h5>
+				<div class="map"></div>
+			</div>
+			<div class="col-md-3">
+				<h5>Get in touch</h5>
+				<div class="icons">
+					<p>					
+						<span class="glyphicon glyphicon-earphone"></span>+9884252502,9884997599
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-send"></span>info@fnofashions.com
+					</p>
+					<p>
+					<p>
+						<span class="glyphicon glyphicon-map-marker"></span>Fig & Olive Fashions
+					</p>
+					<p>
+						1st floor,#406,GST Road,
+						chromepet,Chennai-6000 44.
+						Tamilnadu,India.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<h5>Join us on social media</h5>
+				<div class="social-icons">
+					<img src="images/fbsocial.png">
+					<img src="images/tweetsocial.png">
+					<img src="images/rss.png">
+					<img src="images/googleplussocial.png">
+					<img src="images/youtube.png">
+					
+            	</div>
+        	</div>
 		</div>
 	</div>
-
-
 <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-</div>
+
 </body>
 </html>
